@@ -14,7 +14,7 @@ const doctors = [
     experience: '15 years',
     rating: 4.9,
     reviews: 342,
-    fee: 50,
+    fee: 0,
     availability: 'Available Today',
   },
   {
@@ -24,7 +24,7 @@ const doctors = [
     experience: '12 years',
     rating: 4.8,
     reviews: 256,
-    fee: 40,
+    fee: 0,
     availability: 'Available Now',
   },
   {
@@ -34,7 +34,7 @@ const doctors = [
     experience: '10 years',
     rating: 4.7,
     reviews: 198,
-    fee: 45,
+    fee: 0,
     availability: 'Available Tomorrow',
   },
   {
@@ -44,7 +44,7 @@ const doctors = [
     experience: '18 years',
     rating: 4.9,
     reviews: 412,
-    fee: 55,
+    fee: 0,
     availability: 'Available Today',
   },
 ]

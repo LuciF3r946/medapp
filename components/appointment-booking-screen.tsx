@@ -62,8 +62,8 @@ export default function AppointmentBookingScreen({ onBack, onComplete }: { onBac
               <div className="flex items-center gap-2 flex-1">
                 <div
                   className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold ${index <= currentStep
-                      ? 'bg-primary-foreground text-primary'
-                      : 'bg-primary-foreground/20 text-primary-foreground/60'
+                    ? 'bg-primary-foreground text-primary'
+                    : 'bg-primary-foreground/20 text-primary-foreground/60'
                     }`}
                 >
                   {index < currentStep ? <Check className="w-4 h-4" /> : index + 1}
@@ -91,7 +91,7 @@ export default function AppointmentBookingScreen({ onBack, onComplete }: { onBac
                     <div className="font-semibold">Video Consultation</div>
                     <div className="text-sm text-muted-foreground">Consult from home</div>
                   </Label>
-                  <span className="font-semibold text-primary">₹50</span>
+                  <span className="font-semibold text-primary"></span>
                 </div>
               </Card>
               <Card className={`p-4 cursor-pointer ${consultationType === 'clinic' ? 'border-primary border-2' : ''}`}>
@@ -101,7 +101,7 @@ export default function AppointmentBookingScreen({ onBack, onComplete }: { onBac
                     <div className="font-semibold">Clinic Visit</div>
                     <div className="text-sm text-muted-foreground">In-person appointment</div>
                   </Label>
-                  <span className="font-semibold text-primary">₹60</span>
+                  <span className="font-semibold text-primary"></span>
                 </div>
               </Card>
             </RadioGroup>

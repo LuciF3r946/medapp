@@ -11,7 +11,7 @@ const quickServices = [
   { icon: TestTube, label: 'Lab Tests', color: 'bg-purple-50 text-purple-600', screen: 'diagnostics' },
   { icon: Stethoscope, label: 'Symptom Check', color: 'bg-indigo-50 text-indigo-600', screen: 'symptom-checker' },
   { icon: Activity, label: 'Health Score', color: 'bg-teal-50 text-teal-600', screen: 'health-insights' },
-  { icon: HeartPulse, label: 'Wellness', color: 'bg-pink-50 text-pink-600', screen: 'wellness' },
+  
   { icon: Users, label: 'Community', color: 'bg-orange-50 text-orange-600', screen: 'community' },
   { icon: Brain, label: 'Mental Health', color: 'bg-yellow-50 text-yellow-600', screen: 'mental-health' },
   { icon: Upload, label: 'Upload Reports', color: 'bg-cyan-50 text-cyan-600', screen: 'vault' },

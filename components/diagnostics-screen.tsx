@@ -11,7 +11,7 @@ const testPackages = [
     id: 1,
     name: 'Complete Blood Count',
     tests: 28,
-    price: 25,
+    price: 0,
     homeCollection: true,
     turnaround: '24 hours',
   },
@@ -19,7 +19,7 @@ const testPackages = [
     id: 2,
     name: 'Thyroid Profile',
     tests: 3,
-    price: 35,
+    price: 0,
     homeCollection: true,
     turnaround: '48 hours',
   },
@@ -27,7 +27,7 @@ const testPackages = [
     id: 3,
     name: 'Lipid Profile',
     tests: 8,
-    price: 30,
+    price: 0,
     homeCollection: true,
     turnaround: '24 hours',
   },
@@ -35,7 +35,7 @@ const testPackages = [
     id: 4,
     name: 'Diabetes Screening',
     tests: 5,
-    price: 20,
+    price: 0,
     homeCollection: true,
     turnaround: '24 hours',
   },
@@ -43,7 +43,7 @@ const testPackages = [
     id: 5,
     name: 'Vitamin D Test',
     tests: 1,
-    price: 40,
+    price: 0,
     homeCollection: true,
     turnaround: '48 hours',
   },
@@ -51,7 +51,7 @@ const testPackages = [
     id: 6,
     name: 'Liver Function Test',
     tests: 12,
-    price: 28,
+    price: 0,
     homeCollection: true,
     turnaround: '24 hours',
   },
@@ -120,7 +120,7 @@ export default function DiagnosticsScreen({ onBack }: { onBack: () => void }) {
                   </div>  
 
                   <div className="flex items-center justify-between">
-                    <span className="font-bold text-primary text-lg">₹2{test.price}</span>
+                    <span className="font-bold text-primary text-lg">₹{test.price}</span>
                     <Button size="sm" className="h-9">
                       Book Now
                     </Button>

@@ -20,3 +20,61 @@
 [00:12:27.248] Server  LOG      ✓ Compiled in 91ms
 [00:12:32.819] Server  LOG      ✓ Compiled in 187ms
 [00:12:42.085] Server  LOG      ✓ Compiled in 77ms
+[00:23:37.831] Server  LOG      ✓ Compiled in 109ms
+[00:23:41.438] Server  LOG      ✓ Compiled in 118ms
+[00:23:44.221] Server  LOG      ✓ Compiled in 87ms
+[00:23:47.789] Server  LOG      ✓ Compiled in 90ms
+[00:24:46.976] Server  LOG      ✓ Compiled in 134ms
+[00:24:52.950] Server  LOG      ✓ Compiled in 86ms
+[00:25:47.954] Server  LOG      ✓ Compiled in 167ms
+[00:25:59.664] Server  LOG      ✓ Compiled in 69ms
+[00:26:04.598] Server  LOG      ✓ Compiled in 189ms
+[00:26:06.544] Server  LOG      ✓ Compiled in 77ms
+[00:26:53.515] Server  LOG      ✓ Compiled in 120ms
+[00:27:01.385] Server  LOG      ✓ Compiled in 99ms
+[00:27:10.603] Server  LOG      ✓ Compiled in 103ms
+[00:27:12.842] Server  LOG      ✓ Compiled in 85ms
+[00:27:16.259] Server  LOG      ✓ Compiled in 95ms
+[00:27:18.362] Server  LOG      ✓ Compiled in 85ms
+[00:27:20.515] Server  LOG      ✓ Compiled in 85ms
+[00:27:30.338] Server  LOG      ✓ Compiled in 85ms
+[00:27:33.335] Server  LOG      ✓ Compiled in 86ms
+[00:27:36.782] Server  LOG      ✓ Compiled in 86ms
+[00:27:40.267] Server  LOG      ✓ Compiled in 93ms
+[00:30:50.203] Server  LOG      ✓ Compiled in 754ms
+[00:30:52.698] Server  LOG      ✓ Compiled in 854ms
+[00:30:58.797] Server  LOG      ✓ Compiled in 300ms
+[00:31:02.594] Server  LOG      ✓ Compiled in 301ms
+[00:31:05.929] Server  LOG      ✓ Compiled in 612ms
+[00:31:13.574] Server  LOG      ✓ Compiled in 1235ms
+[00:31:15.366] Browser ERROR   ./components/symptom-checker-screen.tsx:27:3
+Parsing ecmascript source code failed
+  25 |       content: "Hi Sara, I'm your HealthEase AI assistant. I can help you check your symptoms. How are you feeling today?",
+  26 |       type: 'text'
+> 27 |   ])
+     |   ^
+  28 |   const scrollRef = useRef<HTMLDivElement>(null)
+  29 |
+  30 |   useEffect(() => {
+
+Expected ',', got ']'
+
+Import traces:
+  Client Component Browser:
+    ./components/symptom-checker-screen.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/symptom-checker-screen.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:31:18.012] Server  LOG      ✓ Compiled in 1336ms
+[00:32:53.577] Server  LOG      ✓ Compiled in 398ms
+[00:32:59.932] Server  LOG      ✓ Compiled in 1218ms
+[00:33:05.520] Server  LOG      ✓ Compiled in 1979ms
+[00:34:40.497] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. indicatorClassName indicatorclassname
+[00:36:16.931] Server  LOG      ✓ Compiled in 1675ms
+[00:36:21.105] Server  LOG      ✓ Compiled in 1225ms
+[00:38:08.695] Server  LOG      ✓ Compiled in 1092ms
+[00:39:03.648] Server  LOG      ✓ Compiled in 1345ms

@@ -76,8 +76,6 @@ export default function HealthEaseApp() {
         return <DeviceIntegrationScreen onBack={() => setCurrentScreen('home')} />
       case 'community':
         return <CommunityScreen onBack={() => setCurrentScreen('home')} />
-      case 'wellness':
-        return <WellnessScreen onBack={() => setCurrentScreen('home')} />
       case 'notifications':
         return <NotificationsScreen onBack={() => setCurrentScreen('home')} />
       default:
@@ -91,7 +89,7 @@ export default function HealthEaseApp() {
       <div className="fixed top-4 left-4 z-50 bg-card/95 backdrop-blur-sm p-3 rounded-xl shadow-lg border border-border max-w-xs max-h-[90vh] overflow-y-auto hidden md:block">
         <p className="text-xs font-semibold mb-2 text-muted-foreground">Demo Navigation:</p>
         <div className="flex flex-wrap gap-1">
-          {['onboarding', 'login', 'signup', 'home', 'doctors', 'booking', 'video', 'medicine', 'diagnostics', 'mental-health', 'vault', 'profile', 'symptom-checker', 'health-insights', 'medications', 'family', 'sos', 'devices', 'community', 'wellness', 'notifications'].map((screen) => (
+          {['onboarding', 'login', 'signup', 'home', 'doctors', 'booking', 'video', 'medicine', 'diagnostics', 'mental-health', 'vault', 'profile', 'symptom-checker', 'health-insights', 'medications', 'family', 'sos', 'devices', 'community', 'notifications'].map((screen) => (
             <Button
               key={screen}
               variant={currentScreen === screen ? 'default' : 'outline'}
